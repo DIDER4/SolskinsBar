@@ -316,7 +316,7 @@ Get-Process -Id (Get-NetTCPConnection -LocalPort 3000).OwningProcess | Stop-Proc
 
 ## 📄 Licens
 
-Dette projekt er licenseret under ISC License.
+Dette projekt er kun til uddannelsesmæssige formål. Må ikke distribueres.
 
 ## 🤝 Bidrag
 
