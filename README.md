@@ -11,7 +11,6 @@ En avanceret web-applikation der hjælper dig med at finde barer og pubber med s
 
 ![Solskinsbar Preview](https://img.shields.io/badge/Status-Active-success)
 ![Node.js](https://img.shields.io/badge/Node.js-18+-green)
-![License](https://img.shields.io/badge/License-ISC-blue)
 
 ## ✨ Hovedfunktioner
 
