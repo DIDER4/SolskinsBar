@@ -1,0 +1,21 @@
+{
+  "name": "solskinsbar",
+  "version": "1.0.0",
+  "description": "Find barer med sol i danske storbyer",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": ["bar", "sol", "danmark", "kort"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "pug": "^3.0.2",
+    "suncalc": "^1.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

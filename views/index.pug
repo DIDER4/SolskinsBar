@@ -1,0 +1,63 @@
+doctype html
+html(lang='da')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title= title
+    link(rel='stylesheet', href='https://unpkg.com/maplibre-gl@4.1.1/dist/maplibre-gl.css')
+    link(rel='stylesheet', href='/css/style.css')
+    link(rel='preconnect', href='https://fonts.googleapis.com')
+    link(rel='preconnect', href='https://fonts.gstatic.com', crossorigin)
+    link(href='https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap', rel='stylesheet')
+    script(src='https://unpkg.com/maplibre-gl@4.1.1/dist/maplibre-gl.js')
+    script(src='https://unpkg.com/suncalc@1.9.0/suncalc.js')
+  body
+    #map.map-container
+    
+    .floating-logo
+      h1 
+        span.sun-icon ☀️
+        | Solpletten - 
+        p.subtitle Find din solplet!
+    
+    aside.control-panel
+          .panel-section
+            .stats-card
+              .stat-number#antalMedSol 0
+              .stat-label Barer med sol
+          
+          .panel-section.timeline-section
+            h2.panel-title
+              span 🕐
+              |  Tidspunkt
+            .timeline-controls
+              .current-time
+                #datoVisning Onsdag 20. nov 2025
+                #tidsVisning 12:00
+              
+              .timeline-slider-container
+                input#timeSlider.time-slider(type='range', min='0', max='95', value='48', step='1')
+                .time-markers
+                  span.time-marker 00
+                  span.time-marker 06
+                  span.time-marker 12
+                  span.time-marker 18
+                  span.time-marker 24
+              
+              .timeline-buttons
+                button.timeline-btn#prevDay ← Forrige dag
+                button.timeline-btn#nextDay Næste dag →
+          
+          .panel-section
+            .search-container
+              input#barSearch.search-input(type='text', placeholder='Søg efter bar...')
+              span.search-icon 🔍
+          
+          .panel-section.bar-section
+            h2.panel-title
+              span ☀️
+              |  Barer med sol
+            #barListe.bar-liste
+              .loading Henter barer...
+    
+    script(type='module', src='/js/app-modular.js')
