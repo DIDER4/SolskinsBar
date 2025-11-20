@@ -1,3 +1,10 @@
+<img width="2545" height="1252" alt="Skærmbillede 2025-11-20 193723" src="https://github.com/user-attachments/assets/4383cd6e-3156-4441-bf36-06a915c06b59" />
+<img width="2541" height="1250" alt="Skærmbillede 2025-11-20 193615" src="https://github.com/user-attachments/assets/268314cc-609f-4fd6-9fc7-ea06bcc7a29e" />
+<img width="2546" height="1254" alt="Skærmbillede 2025-11-20 193652" src="https://github.com/user-attachments/assets/8c887b53-3542-4d4f-9566-ebd3627a6e9b" />
+
+
+
+
 # 🌞 Solskinsbar
 
 En avanceret web-applikation der hjælper dig med at finde barer og pubber med sol i danske byer. Projektet kombinerer real-time solberegninger med OpenStreetMap data og 3D kortvisualisering for at give den bedste oplevelse af at planlægge dit næste barbesøg i sollyset.
